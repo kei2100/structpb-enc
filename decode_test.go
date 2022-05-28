@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	pb "github.com/golang/protobuf/ptypes/struct"
 	"github.com/kei2100/structpb-enc"
 	"github.com/stretchr/testify/assert"
+	pb "google.golang.org/protobuf/types/known/structpb"
 )
 
 func ExampleDecode() {

@@ -3,7 +3,7 @@ package structpb
 import (
 	"fmt"
 
-	pb "github.com/golang/protobuf/ptypes/struct"
+	pb "google.golang.org/protobuf/types/known/structpb"
 )
 
 // Decode decodes pb.Struct to map[string]interface{}
