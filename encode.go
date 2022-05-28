@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"unicode"
 
-	pb "github.com/golang/protobuf/ptypes/struct"
+	pb "google.golang.org/protobuf/types/known/structpb"
 )
 
 // Encode encodes map[string]interface{} to pb.Struct
